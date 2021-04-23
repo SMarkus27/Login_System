@@ -27,6 +27,11 @@ def submit_login(request):
             messages.error(request, 'username or password is wrong')
             return redirect('/')        
 
+
+def logout_user(request):
+    logout(request)
+    return redirect('login')
+
 # create a new user
 def register(request):
     if request.method == 'POST':
