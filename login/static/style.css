@@ -1,0 +1,25 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 35px;
+    border: 1px solid #222;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.link{
+    text-decoration: none;
+    color: #0B5ED7;
+}
+.input-item{
+    margin-bottom: 10px;
+}
+.gif{
+    display: flex;
+    justify-content: center;
+}
